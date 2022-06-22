@@ -115,7 +115,7 @@ public class BenchmarkingSortingAlgos {
 
         long runTime = System.currentTimeMillis() - startTime;
 
-        System.out.println("\nRun time of the Selection sort is:" + runTime / 1000.0 + " Seconds");
+        System.out.println("\nRun time of the Selection sort: " + runTime / 1000.0 + " Seconds");
 
         long startTime1 = System.currentTimeMillis();
 
