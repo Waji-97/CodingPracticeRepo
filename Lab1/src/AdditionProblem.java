@@ -9,10 +9,18 @@ public class AdditionProblem {
         answer = x + y;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getProblem() {
         return "Compute the sum: " + x + " + " + y;
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getAnswer() {
         return answer;
     }
