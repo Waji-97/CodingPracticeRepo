@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class MathQuiz {
+	
+	/** 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		AdditionProblem	additionProblem = new AdditionProblem();
 		String num = additionProblem.getProblem();
