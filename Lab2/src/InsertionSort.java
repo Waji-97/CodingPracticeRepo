@@ -2,6 +2,10 @@ import java.util.Random;
 
 public class InsertionSort {
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
 
         Random rand = new Random();
@@ -21,12 +25,20 @@ public class InsertionSort {
         
     }
 
+    
+    /** 
+     * @param numbers
+     */
     private static void printArray(int[] numbers){
         for (int i=0; i<numbers.length; i++){
             System.out.println(numbers[i]);
         }
     }
 
+    
+    /** 
+     * @param inputArray
+     */
     private static void insertionSort(int[] inputArray){
 
         for(int i = 1; i < inputArray.length; i++){
